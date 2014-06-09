@@ -29,7 +29,7 @@
 ## NSArray
 
 `NSArray` 作为一个存储对象的有序集合，可能是被使用最多的集合类。这也是为什么它有自己的比原来的 `[NSArray arrayWithObjects:..., nil]` 简短得多的快速语法糖符号 `@[...]`。
-`NSArray` 实现了 `objectAtIndexedSubscript:`，因为我们可以使用类 C 的语法 `array[0]` 来代替原来的 `[array objectAtIndex:0]`。
+`NSArray` 实现了 `objectAtIndexedSubscript:`，因此我们可以使用类 C 的语法 `array[0]` 来代替原来的 `[array objectAtIndex:0]`。
 
 ### 性能特征
 
